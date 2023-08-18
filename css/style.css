@@ -320,8 +320,6 @@ h6 {
   .mainblock__container {
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 40px;
-    padding: 30px;
   }
 
   .mainblock__title {
@@ -358,6 +356,10 @@ h6 {
 }
 
 @media (max-width: 47.99875em) {
+  .mainblock__container {
+    padding-top: 40px;
+  }
+
   .mainblock__top {
     margin-bottom: 30px;
   }
