@@ -195,7 +195,8 @@ h6 {
 }
 
 .mainblock__top {
-  margin-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .mainblock__title {
@@ -367,10 +368,6 @@ h6 {
 }
 
 @media (max-width: 47.99875em) {
-  .mainblock__top {
-    margin-bottom: 30px;
-  }
-
   .mainblock__box {
     gap: 30px;
     padding-left: 0;
