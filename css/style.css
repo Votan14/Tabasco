@@ -89,6 +89,9 @@ h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   overflow: hidden;
 }
 
@@ -189,8 +192,6 @@ h6 {
 .mainblock__container {
   padding-left: 80px;
   padding-right: 80px;
-  padding-bottom: 72px;
-  padding-top: 15vh;
 }
 
 .mainblock__top {
@@ -296,6 +297,11 @@ h6 {
   fill: #df4d44;
 }
 
+.second {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
 @media (min-width: 120em) {
   [class*=__container] {
     padding-left: 0.9375rem;
@@ -331,7 +337,7 @@ h6 {
   }
 
   .mainblock__box {
-    padding-left: 28.4%;
+    padding-left: 29%;
     gap: 56px;
   }
 
@@ -353,23 +359,30 @@ h6 {
             flex: 1 1 100%;
     max-width: none;
   }
+
+  .second {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 @media (max-width: 47.99875em) {
-  .mainblock__container {
-    padding-top: 40px;
-  }
-
   .mainblock__top {
     margin-bottom: 30px;
   }
 
   .mainblock__box {
     gap: 30px;
+    padding-left: 0;
   }
 
   .mainblock__link.last-link {
     margin-bottom: 15px;
+  }
+
+  .second {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -381,10 +394,7 @@ h6 {
 
   .mainblock__title {
     font-size: 16px;
-  }
-
-  .mainblock__box {
-    padding-left: 0;
+    margin-bottom: 10px;
   }
 
   .mainblock__right {
