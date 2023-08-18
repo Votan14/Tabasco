@@ -356,8 +356,20 @@ h6 {
 }
 
 @media (max-width: 47.99875em) {
+  .mainblock__container {
+    padding-top: 40px;
+  }
+
   .mainblock__top {
-    margin-bottom: 56px;
+    margin-bottom: 30px;
+  }
+
+  .mainblock__box {
+    gap: 30px;
+  }
+
+  .mainblock__link.last-link {
+    margin-bottom: 15px;
   }
 }
 
@@ -373,7 +385,6 @@ h6 {
 
   .mainblock__box {
     padding-left: 0;
-    gap: 86px;
   }
 
   .mainblock__right {
