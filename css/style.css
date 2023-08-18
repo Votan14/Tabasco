@@ -226,6 +226,7 @@ h6 {
   gap: 30px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-bottom: 30px;
 }
 
 .mainblock__left {
